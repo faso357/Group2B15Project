@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/Features",
         glue = "StepDefinitions",
         dryRun = false,
-        tags = "@deleteexperience",
+        tags = "@employeeexperience1",
         plugin ={"pretty","html:target/Cucumber.html", "json:target/Cucumber.json", "rerun:target/failed.txt"}
 )
 public class MainRunner {
